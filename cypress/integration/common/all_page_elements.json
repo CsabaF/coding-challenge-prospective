@@ -1,0 +1,88 @@
+{
+  "Common": {
+    "Buttons": {
+      "Menu": {
+        "CSS": "[id='react-burger-menu-btn']"
+      },
+      "Logout": {
+        "CSS": "[id='logout_sidebar_link']"
+      },
+      "All_Items": {
+        "CSS": "[id='inventory_sidebar_link']"
+      },
+      "Cart": {
+        "CSS": "[id='shopping_cart_container']"
+      }
+    },
+    "Fields": {},
+    "Selects": {},
+    "Elements": {}
+  },
+  "Login": {
+    "Path": "https://www.saucedemo.com/",
+    "Buttons": {
+      "Login": {
+        "CSS": "[type='submit']"
+      }
+    },
+    "Fields": {
+      "Username": {
+        "CSS": "[data-test='username']"
+      },
+      "Password": {
+        "CSS": "[data-test='password']"
+      }
+    },
+    "Selects": {},
+    "Elements": {}
+  },
+  "Home": {
+    "Path": "https://www.saucedemo.com/inventory.html",
+    "Buttons": {},
+    "Elements": {
+      "ProductsNamesList": {
+        "CSS": "[class='inventory_item_name ']"
+      },
+      "ProductsDivList": {
+        "CSS": "[class='inventory_item']"
+      },
+      "ProductsPriceList": {
+        "CSS": "[class='inventory_item_price']"
+      }
+    },
+    "Fields": {},
+    "Selects": {
+      "Sorting": {
+        "CSS": "[data-test='product_sort_container']"
+      }
+    }
+  },
+  "ProductDetails": {
+    "Path": "https://www.saucedemo.com/inventory-item.html",
+    "Buttons": {
+      "AddToCart": {
+        "CSS": "[data-test*='add-to-cart-sauce-labs']"
+      },
+      "Remove": {
+        "CSS": "[id*='remove-sauce-labs']"
+      }
+    },
+    "Fields": {},
+    "Selects": {},
+    "Elements": {}
+  },
+  "Cart": {
+    "Path": "https://www.saucedemo.com/cart.html",
+    "Buttons": {
+      "Checkout": {
+        "CSS": "[id='checkout']"
+      },
+      "Remove": {
+        "CSS": "[id='continue-shopping']"
+      }
+    },
+    "Fields": {},
+    "Selects": {},
+    "Elements": {}
+  }
+}
